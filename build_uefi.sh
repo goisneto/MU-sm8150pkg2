@@ -9,10 +9,10 @@ if [ -z ${TARGET_DEVICE} ]; then
     echo "Usage: build_uefi.sh <target_device> <ram_size>"
     echo ""
     echo "Available devices:"
-    for i in $(ls Platforms/SurfaceDuoPkg/Device); do
+    for i in $(ls Platforms/SurfaceDuo1Pkg/Device); do
         # skip if the directory is empty
 
-        if [ -z "$(ls Platforms/SurfaceDuoPkg/Device/${i})" ]; then
+        if [ -z "$(ls Platforms/SurfaceDuo1Pkg/Device/${i})" ]; then
             continue
         fi
 
@@ -28,5 +28,20 @@ if  [ -z ${TARGET_RAM_SIZE} ]; then
 	TARGET_RAM_SIZE=6
 fi
 
+bash ./build_boot_shim.sh
+
 # Start the actual build:
-stuart_build -c Platforms/SurfaceDuoPkg/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38 "TARGET_DEVICE=${TARGET_DEVICE}" "TARGET_RAM_SIZE=${TARGET_RAM_SIZE}"
+if [ ${TARGET_DEVICE} = 'all' ]; then
+    for i in $(ls Platforms/SurfaceDuo1Pkg/Device); do
+        # skip if the directory is empty
+
+        if [ -z "$(ls Platforms/SurfaceDuo1Pkg/Device/${i})" ]; then
+            continue
+        fi
+
+        TARGET_DEVICE=$(basename ${i})
+        stuart_build -c Platforms/SurfaceDuo1Pkg/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38 "TARGET_DEVICE=${TARGET_DEVICE}" "TARGET_RAM_SIZE=${TARGET_RAM_SIZE}"
+    done
+else
+    stuart_build -c Platforms/SurfaceDuo1Pkg/PlatformBuild.py TOOL_CHAIN_TAG=CLANG38 "TARGET_DEVICE=${TARGET_DEVICE}" "TARGET_RAM_SIZE=${TARGET_RAM_SIZE}"
+fi

@@ -1,0 +1,3 @@
+gSurfacePkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+gSurfacePkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
+gSurfacePkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9D200000
