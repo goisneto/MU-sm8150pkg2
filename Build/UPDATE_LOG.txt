@@ -1,0 +1,379 @@
+INFO - Log Started: Wednesday, October 12, 2022 09:13PM
+SECTION - Init SDE
+DEBUG - --- self_describing_environment.__init__()
+DEBUG - Skipped directories specified = ()
+DEBUG - --- self_describing_environment.load_workspace()
+DEBUG - Loading workspace: /root/MU-sm8150pkg2
+DEBUG -   Including scopes: SurfaceDuo1, edk2-build, cibuild, global-nix, global
+DEBUG - --- self_describing_environment._gather_env_files()
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/edk2_core_path_env.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/basetools_calling_path_env.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/basetools_path_env.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Source/Python/basetool_tiano_python_path_env.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/BinWrappers/PosixLike/posix_path_env.yaml to the environment with scope global-nix
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Scripts/basetools_scripts_bin_path_env.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/nasm_ext_dep.yaml to the environment with scope edk2-build
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/basetoolsbin_ext_dep.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/iasl_ext_dep.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/uncrustify_ext_dep.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/CryptoPkg/Driver/Bin/BaseCryptoDriver_ext_dep.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/ClangPdbToolChain/ClangPdbToolChain_plug_in.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/WindowsCapsuleSupportHelper/WindowsCapsuleSupportHelper_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/FlattenPdbs/FlattenPdbs_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/Edk2ToolHelper/Edk2ToolHelper_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/LinuxGcc5ToolChain/LinuxGcc5ToolChain_plug_in.yaml to the environment with scope global-nix
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/FdSizeReport/FdSizeReportGenerator_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/OverrideValidation/OverrideValidation_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/BuildToolsReport/BuildToolsReportGenerator_plug_in.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/MarkdownLintCheck/MarkdownLintCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/CharEncodingCheck/CharEncodingCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/LibraryClassCheck/LibraryClassCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DscCompleteCheck/DscCompleteCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/GuidCheck/GuidCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/uncrustify_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DependencyCheck/DependencyCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/CompilerPlugin/Compiler_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/SpellCheck/SpellCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DebugMacroCheck/BuildPlugin/DebugMacroCheck_plug_in.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/ImageValidation/ImageValidation_plug_in.yaml to the environment with scope global
+DEBUG - --- self_describing_environment.update_simple_paths()
+DEBUG - --- self_describing_environment.update_extdep_paths()
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - --- self_describing_environment.report_extdep_version()
+DEBUG - Setting up version aggregator
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+SECTION - Loading Plugins
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/ClangPdbToolChain/ClangPdbToolChain.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/WindowsCapsuleSupportHelper/WindowsCapsuleSupportHelper.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/FlattenPdbs/FlattenPdbs.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/Edk2ToolHelper/Edk2ToolHelper.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/LinuxGcc5ToolChain/LinuxGcc5ToolChain.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/FdSizeReport/FdSizeReportGenerator.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/OverrideValidation/OverrideValidation.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/BuildToolsReport/BuildToolsReportGenerator.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/MarkdownLintCheck/MarkdownLintCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/CharEncodingCheck/CharEncodingCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/LibraryClassCheck/LibraryClassCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DscCompleteCheck/DscCompleteCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/GuidCheck/GuidCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/UncrustifyCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DependencyCheck/DependencyCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/CompilerPlugin/CompilerPlugin.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/SpellCheck/SpellCheck.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DebugMacroCheck/BuildPlugin/DebugMacroCheckBuildPlugin.py
+DEBUG - Loading Plugin from /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/ImageValidation/ImageValidation.py
+INFO - PLUGIN DESCRIPTOR:Windows Capsule Support Helper Functions
+DEBUG - Helper Plugin Register: Windows Capsule Support Helper Functions
+INFO - PLUGIN DESCRIPTOR:Edk2Tool Helper Functions
+DEBUG - Helper Plugin Register: Edk2Tool Helper Functions
+SECTION - Start Invocable Tool
+SECTION - Initial update of environment
+DEBUG - --- self_describing_environment.update_extdeps()
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - Creating 5 threads for the SDE update
+DEBUG - Verify 'edk2-basecrypto-driver-bin' returning 'False'.
+DEBUG - Cleaning dependency directory for 'edk2-basecrypto-driver-bin'...
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Cleaning dependency directory for 'mu-uncrustify-release'...
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - Cleaning dependency directory for 'edk2-acpica-iasl'...
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+DEBUG - Cleaning dependency directory for 'Mu-Basetools'...
+DEBUG - Cleaning dependency directory for 'mu_nasm'...
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - ------------------------------------------------
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - ------------------------------------------------
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install edk2-acpica-iasl -Source https://pkgs.dev.azure.com/projectmu/acpica/_packaging/mu_iasl/nuget/v3/index.json -ExcludeVersion -NonInteractive -Version 20210105.0.0 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/edk2-acpica-iasl_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install edk2-basecrypto-driver-bin -Source https://pkgs.dev.azure.com/projectmu/mu/_packaging/Mu-Public/nuget/v3/index.json -ExcludeVersion -NonInteractive -Version 2022.2.2 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/CryptoPkg/Driver/Bin/edk2-basecrypto-driver-bin_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install Mu-Basetools -Source https://api.nuget.org/v3/index.json -ExcludeVersion -NonInteractive -Version 2022.2.1 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install mu-uncrustify-release -Source https://pkgs.dev.azure.com/projectmu/Uncrustify/_packaging/mu_uncrustify/nuget/v3/index.json -ExcludeVersion -NonInteractive -Version 73.0.4 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install mu_nasm -Source https://api.nuget.org/v3/index.json -ExcludeVersion -NonInteractive -Version 2.15.5 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/mu_nasm_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: Mu-Basetools@2022.2.1: [Nuget] We failed to install this version 2022.2.1 of Mu-Basetools
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: edk2-acpica-iasl@20210105.0.0: [Nuget] We failed to install this version 20210105.0.0 of edk2-acpica-iasl
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: edk2-basecrypto-driver-bin@2022.2.2: [Nuget] We failed to install this version 2022.2.2 of edk2-basecrypto-driver-bin
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: mu-uncrustify-release@73.0.4: [Nuget] We failed to install this version 73.0.4 of mu-uncrustify-release
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: mu_nasm@2.15.5: [Nuget] We failed to install this version 2.15.5 of mu_nasm
+SECTION - Second pass update of environment
+DEBUG - --- self_describing_environment.__init__()
+DEBUG - Skipped directories specified = ()
+DEBUG - --- self_describing_environment.load_workspace()
+DEBUG - Loading workspace: /root/MU-sm8150pkg2
+DEBUG -   Including scopes: SurfaceDuo1, edk2-build, cibuild, global-nix, global
+DEBUG - --- self_describing_environment._gather_env_files()
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/edk2_core_path_env.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/basetools_calling_path_env.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/basetools_path_env.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Source/Python/basetool_tiano_python_path_env.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/BinWrappers/PosixLike/posix_path_env.yaml to the environment with scope global-nix
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Scripts/basetools_scripts_bin_path_env.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/nasm_ext_dep.yaml to the environment with scope edk2-build
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/basetoolsbin_ext_dep.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/iasl_ext_dep.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/uncrustify_ext_dep.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/CryptoPkg/Driver/Bin/BaseCryptoDriver_ext_dep.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/ClangPdbToolChain/ClangPdbToolChain_plug_in.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/WindowsCapsuleSupportHelper/WindowsCapsuleSupportHelper_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/FlattenPdbs/FlattenPdbs_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/Edk2ToolHelper/Edk2ToolHelper_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/LinuxGcc5ToolChain/LinuxGcc5ToolChain_plug_in.yaml to the environment with scope global-nix
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/FdSizeReport/FdSizeReportGenerator_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/OverrideValidation/OverrideValidation_plug_in.json to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Plugin/BuildToolsReport/BuildToolsReportGenerator_plug_in.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/MarkdownLintCheck/MarkdownLintCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/CharEncodingCheck/CharEncodingCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/LibraryClassCheck/LibraryClassCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DscCompleteCheck/DscCompleteCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/GuidCheck/GuidCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/uncrustify_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DependencyCheck/DependencyCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/CompilerPlugin/Compiler_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/SpellCheck/SpellCheck_plug_in.yaml to the environment with scope cibuild
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/DebugMacroCheck/BuildPlugin/DebugMacroCheck_plug_in.yaml to the environment with scope global
+DEBUG - Adding descriptor /root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/ImageValidation/ImageValidation_plug_in.yaml to the environment with scope global
+DEBUG - --- self_describing_environment.update_simple_paths()
+DEBUG - --- self_describing_environment.update_extdep_paths()
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - --- self_describing_environment.report_extdep_version()
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - --- self_describing_environment.update_extdeps()
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - Creating 5 threads for the SDE update
+DEBUG - Verify 'edk2-basecrypto-driver-bin' returning 'False'.
+DEBUG - Verify 'mu-uncrustify-release' returning 'False'.
+DEBUG - Verify 'edk2-acpica-iasl' returning 'False'.
+DEBUG - Cleaning dependency directory for 'edk2-basecrypto-driver-bin'...
+DEBUG - Verify 'Mu-Basetools' returning 'False'.
+DEBUG - Cleaning dependency directory for 'mu-uncrustify-release'...
+DEBUG - Verify 'mu_nasm' returning 'False'.
+DEBUG - Cleaning dependency directory for 'edk2-acpica-iasl'...
+DEBUG - Cleaning dependency directory for 'Mu-Basetools'...
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+DEBUG - Cleaning dependency directory for 'mu_nasm'...
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - ------------------------------------------------
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - ------------------------------------------------
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe locals global-packages -list
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install edk2-basecrypto-driver-bin -Source https://pkgs.dev.azure.com/projectmu/mu/_packaging/Mu-Public/nuget/v3/index.json -ExcludeVersion -NonInteractive -Version 2022.2.2 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/CryptoPkg/Driver/Bin/edk2-basecrypto-driver-bin_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install mu-uncrustify-release -Source https://pkgs.dev.azure.com/projectmu/Uncrustify/_packaging/mu_uncrustify/nuget/v3/index.json -ExcludeVersion -NonInteractive -Version 73.0.4 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install mu_nasm -Source https://api.nuget.org/v3/index.json -ExcludeVersion -NonInteractive -Version 2.15.5 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/mu_nasm_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install edk2-acpica-iasl -Source https://pkgs.dev.azure.com/projectmu/acpica/_packaging/mu_iasl/nuget/v3/index.json -ExcludeVersion -NonInteractive -Version 20210105.0.0 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/edk2-acpica-iasl_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:02 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+INFO - Nuget was unable to provide global packages cache location.
+INFO - Cmd to run is: mono /usr/local/lib/python3.10/dist-packages/edk2toolext/bin/NuGet.exe install Mu-Basetools -Source https://api.nuget.org/v3/index.json -ExcludeVersion -NonInteractive -Version 2022.2.1 -Verbosity detailed -OutputDirectory "/root/MU-sm8150pkg2/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep_temp"
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: edk2-basecrypto-driver-bin@2022.2.2: [Nuget] We failed to install this version 2022.2.2 of edk2-basecrypto-driver-bin
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: mu-uncrustify-release@73.0.4: [Nuget] We failed to install this version 73.0.4 of mu-uncrustify-release
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: mu_nasm@2.15.5: [Nuget] We failed to install this version 2.15.5 of mu_nasm
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: edk2-acpica-iasl@20210105.0.0: [Nuget] We failed to install this version 20210105.0.0 of edk2-acpica-iasl
+INFO - /bin/sh: 1: mono: not found
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:01 ----------
+INFO - ----------- Return Code: 0x0000007f ------------
+INFO - ------------------------------------------------
+WARNING - [SDE] Failed to fetch NugetDependecy: Mu-Basetools@2022.2.1: [Nuget] We failed to install this version 2022.2.1 of Mu-Basetools
+ERROR - We were unable to successfully update 5 dependencies in environment
+SECTION - Summary
+ERROR - Error

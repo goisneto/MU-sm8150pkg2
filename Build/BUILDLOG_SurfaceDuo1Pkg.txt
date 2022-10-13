@@ -1,0 +1,7 @@
+INFO - Log Started: Wednesday, October 12, 2022 09:13PM
+SECTION - Init SDE
+ERROR - Dependency 'edk2-basecrypto-driver-bin' is not met!
+ERROR - Dependency 'mu-uncrustify-release' is not met!
+ERROR - Dependency 'edk2-acpica-iasl' is not met!
+ERROR - Dependency 'Mu-Basetools' is not met!
+ERROR - Dependency 'mu_nasm' is not met!
